@@ -77,7 +77,11 @@ div#left {
   height: auto;
   float: left;
   margin-right: 30px;
-  background-color: blue;
+
+}
+
+div#left ul {
+    padding-left: 0px;
 }
 
 div#left ul li {
@@ -133,23 +137,20 @@ div#right dt {
   font-size: 12px;
   color: #a8a8a8;
   float: left;
-  width: 650px;
+  width: 80px;
   line-height: 40px;
-  background-color: #f5f5f5;
   padding-left: 15px;
 }
 
 div#right dd {
   font-size: 13px;
   color: #555555;
-  float: left;
   width: 650px;
   line-height: 40px;
-  background-color: #f5f5f5;
 }
 
-div#right dt:nth-of-type(odd),
-div#right dd:nth-of-type(odd){
+div#right dt:nth-last-of-type(odd),
+div#right dd:nth-last-of-type(odd){
   background-color: #f5f5f5;
 }
 
